@@ -8,7 +8,7 @@ function imc() {
     const resultado = document.getElementById("resultado");
 
     if (nome === '' || altura === '' || peso === '') {
-        resultado.textContent = `[ERRO] Preenche todos os dados!`
+        resultado.textContent = `[ERRO] Preencha todos os dados!`
     } else {
         const imc = (peso / (altura * altura));
         let classsificacao = '';
